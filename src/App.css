@@ -25,3 +25,7 @@
   top:36%;
   left:-8rem;
 }
+
+::-webkit-scrollbar{
+  display: none;
+}
