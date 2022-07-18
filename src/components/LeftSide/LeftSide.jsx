@@ -10,9 +10,10 @@ const LeftSide = () => {
       {/* Search */}
       <Search />
       {/* User Card */}
-      <UserCard />
+      {/* <UserCard /> */}
       {/* Followers */}
       <Followers />
+      
     </div>
   )
 }

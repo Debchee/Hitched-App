@@ -4,7 +4,7 @@ import followerImg from '../../img/img3.png'
 
 const Followers = () => {
   return (
-    <div className='followers'>
+    <div className='followers mt-4'>
     <h4>Who's following you?</h4>
       <div className='follower my-2'>
       <div>
