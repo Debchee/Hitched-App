@@ -21,10 +21,11 @@
 
 .post__Share > div > input{
   border: none;
+  width: 100%;
   outline: none;
   background-color: rgba(40, 52, 62, 0.07);
   border-radius: 10px;
-  padding: 10px;
+  padding: 5px;
   font-size: 17px;
 }
 
