@@ -12,3 +12,14 @@
   max-height: 20rem;
   object-fit: cover;
 }
+
+/* MEDIA QUERIES */
+/* 320 - 400px Mobile phones*/
+/* 481px -768px  Tablets/ ipads*/
+/* 769px- 1024px small screens, laptops */
+/* 1025px - 1200px desktop, large screens */
+/* 1201px - TV, Extralarge screens */
+
+@media media-type(media-feature){
+  
+}

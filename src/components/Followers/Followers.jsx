@@ -1,5 +1,6 @@
 import React from 'react';
 import './Followers.css';
+
 import followerImg from '../../img/img3.png'
 
 const Followers = () => {

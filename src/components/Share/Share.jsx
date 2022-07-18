@@ -28,21 +28,22 @@ const Share = () => {
             style={{color:'#4cb256'}}
             >
             <UilScenery />
-            Photo
+            <span>Photo</span>
             </div>
             <div className='post__media__option' 
             style={{color:'#4a4eb7'}}
             
             >
             <UilPlayCircle/>
-            Video
+            <span>Video</span>
             </div>
             <div className='post__media__option'
             style={{color:'#ef5757'}}
             
             >
             <UilLocationPoint />
-            Location</div>
+            <span>Location</span>
+            </div>
             {/* <div className='post__media__option'>
             <UilSchedule />
             Schedule

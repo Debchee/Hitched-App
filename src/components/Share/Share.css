@@ -65,3 +65,9 @@
   border-radius: 0.5rem;
   margin-top: 15px;
 }
+
+@media (max-width:480px){
+  .post__media__option > span{
+      display: none;
+  }
+}
