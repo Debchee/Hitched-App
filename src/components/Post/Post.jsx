@@ -10,7 +10,7 @@ const Post = ({post}) => {
     <div className="post">
     <img src={post.media} alt="" />
 
-    <div className="post_reactions">
+    <div className="post__reactions">
       <img src={like} alt="" />
       <img src={comment} alt="" />
       <img src={share} alt="" />
@@ -21,7 +21,8 @@ const Post = ({post}) => {
 
     <div className="post__details">
       <span><strong>Chidinma</strong></span>
-      <span>lorem ipsum lorem ipsum</span>
+      <hr/>
+      <span className="text-muted" style={{fontSize:'15px'}}>lorem ipsum lorem ipsum</span>
 
     </div>
      </div>

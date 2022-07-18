@@ -16,7 +16,7 @@ const Share = () => {
   }
 
   return (
-    <div className='post__Share m-3'>
+    <div className='post__Share my-3'>
       <img src={profileImg} alt=""/>
 
       <div>

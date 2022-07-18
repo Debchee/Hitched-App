@@ -6,7 +6,7 @@ import './LeftSide.css';
 
 const LeftSide = () => {
   return (
-    <div className='col-md-3 leftside m-3'>
+    <div className='col-md-3 leftside my-4'>
       {/* Search */}
       <Search />
       {/* User Card */}

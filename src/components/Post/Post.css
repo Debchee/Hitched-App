@@ -11,6 +11,22 @@
   width: 100%;
   max-height: 20rem;
   object-fit: cover;
+  border-radius: 0.5rem;
+}
+.post > span{
+  font-size: 12px;
+  color: rgba(36, 45, 73, .65);
+}
+
+.post__reactions{
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.post__reactions > img:hover{
+  cursor: pointer;
+  transform: translateY(-3px);
 }
 
 /* MEDIA QUERIES */
@@ -20,6 +36,3 @@
 /* 1025px - 1200px desktop, large screens */
 /* 1201px - TV, Extralarge screens */
 
-@media media-type(media-feature){
-  
-}

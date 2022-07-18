@@ -1,0 +1,28 @@
+.rightside{
+  /* background-color: green; */
+  max-height: 100vh;
+  position: sticky;
+  top:0;
+
+}
+
+@media(max-width: 768px){
+  .rightside{
+    display: none;
+  }
+}
+.rightside__icons{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightside__icons > img{
+  width:1.5rem;
+  height: 1.5rem;
+
+}
+.rightside__icons > img:hover{
+  cursor: pointer;
+  transform: translateY(-3px);
+}
